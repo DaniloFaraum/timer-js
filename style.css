@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #9ac3a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.timerBox {
+    background-color: #83ac90;
+    border: solid #567d63;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.timerBtns {
+    margin: 1.5rem;
+}
+
+#foco, #curto, #longo {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    height: 2.5rem;
+    color: #ffffff;
+    background: none;
+    border: none;
+    border-radius: 8px;
+    font-family: Inter;
+    font-size: 1.2rem;
+    font-weight: 600;
+    transition: all 0.2s;
+}
+
+#foco:hover, #curto:hover, #longo:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+#foco:focus, #curto:focus, #longo:focus {
+    background-color: rgba(0, 0, 0, 0.6) ;
+}
+
+.timer {
+    margin: 2rem;
+    display: flex;
+}
+
+#min, #sec {
+    font-family: Inter;
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+#comecar {
+    margin: 1.5rem;
+    padding: 0.8rem;
+    background-color: #567d63;
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+    font-family: Inter;
+    font-size: 1.3rem;
+    transition: all 0.2s;
+}
+
+#comecar:hover {
+    transform: scale(1.1);
+}
+
+#comecar:active {
+    transform: scale(1);
+}

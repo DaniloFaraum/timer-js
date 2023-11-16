@@ -1,6 +1,7 @@
 const min = document.getElementById('min')
 const sec = document.getElementById('sec')
 const musica = document.getElementById('musica')
+const foco = document.getElementById('foco')
 const curto = document.getElementById('curto')
 const longo = document.getElementById('longo')
 const comecar = document.getElementById('comecar')
