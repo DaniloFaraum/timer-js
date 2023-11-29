@@ -8,14 +8,15 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;600;700&display=swap" rel="stylesheet">
-    <script src="./app.js" defer></script>
+    <script src="./js/tasks.js" defer></script>
+    <script src="./js/timer.js" defer></script>
 </head>
 <body>
     <section class="timerBox">
         <div class="timerBtns">
-            <button id="foco">Foco</button>
-            <button id="curto">Descanso curto</button>
-            <button id="longo">Descanso longo</button>
+            <button id="foco" onclick="changeInterval(minTimer * 25 /1000)">Foco</button>
+            <button id="curto" onclick="changeInterval(minTimer * 5 /1000)">Descanso curto</button>
+            <button id="longo" onclick="changeInterval(minTimer * 10 /1000)">Descanso longo</button>
         </div>
         <div class="timer">
             <h1 id="min">25</h1>
